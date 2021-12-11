@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_id"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagen_mesa"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:background="@color/blanco"/>
+        <TextView
+            android:id="@+id/nom_Area"
+            android:gravity="left"
+            android:textSize="13sp"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area: "/>
+        <TextView
+            android:id="@+id/num_Mesa"
+            android:gravity="left"
+            android:textSize="13sp"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesa num: "/>
+        <TextView
+            android:id="@+id/nombre_Mesero"
+            android:gravity="left"
+            android:textSize="13sp"
+            android:textColor="@color/negro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesero: "/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

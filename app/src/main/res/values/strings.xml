@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Playa Ejidal Tequesquitengo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="my_cart">My Cart</string>
+    <string name="delete">ELIMINAR</string>
+</resources>
