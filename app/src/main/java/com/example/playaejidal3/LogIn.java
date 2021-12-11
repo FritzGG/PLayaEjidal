@@ -29,7 +29,7 @@ import java.util.Map;
 
 public class LogIn extends AppCompatActivity {
 
-    private EditText telefono, contraseña;
+    private EditText telefono, contraseña, host;
     private Button btnLog;
     //private static  String URL_Regist="http://192.168.1.66/pruebaphp/login.php";
     private static  String URL_Regist="https://playaejidal.fritzgg.com.mx/webservices/login.php";
@@ -48,6 +48,7 @@ public class LogIn extends AppCompatActivity {
             public void onClick(View V) {
                 String mTelefono= telefono.getText().toString();
                 String mPass= contraseña.getText().toString();
+
                 if(!mTelefono.isEmpty() | !mPass.isEmpty()){
                     LogIn();
                 } else {

@@ -6,8 +6,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.app.FragmentManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -15,6 +18,10 @@ import com.example.playaejidal3.fragments.MesasFragment;
 import com.example.playaejidal3.fragments.ordenesFragment;
 import com.example.playaejidal3.fragments.usuarioFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     private void showSelectedFragments(Fragment fragment, String id_usuario){
         FragmentManager fragmentManager = getFragmentManager();
