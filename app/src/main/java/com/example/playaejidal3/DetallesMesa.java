@@ -32,8 +32,8 @@ import java.util.Map;
 public class DetallesMesa extends AppCompatActivity {
     TextView txtArea, txtMesa, txtOcupantes, txtPedidos;
     Button btnOrdenar, btnCerrarPedido;
-    private static final String URL_Regist="https://playaejidal.fritzgg.com.mx/webservices//terminarOrden.php";
-    private static final String URL_Regist2="https://playaejidal.fritzgg.com.mx/webservices/cargarOrdenesMesa.php";
+    private static final String URL_Regist=GlobalInfo.HOST_URL+GlobalInfo.END_FILE;
+    private static final String URL_Regist2=GlobalInfo.HOST_URL+GlobalInfo.LOAD_FILE;
     String idMesa="",cantidades="",numeroMesa="", idMesero="";
     String myTxtOcupantes="";
     @Override

@@ -43,7 +43,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     private Context mContext;
     private List<Mesa> mData;
-    private static  String URL_Regist="http://192.168.1.66/pruebaphp/cambiarOcupantes.php";
+    private static  String URL_Regist=GlobalInfo.HOST_URL+GlobalInfo.CHANGE_FILE;
 
     public RecyclerViewAdapter(Context mContext, List<Mesa> mData) {
         this.mContext = mContext;

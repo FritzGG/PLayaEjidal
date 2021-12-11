@@ -31,8 +31,7 @@ public class LogIn extends AppCompatActivity {
 
     private EditText telefono, contraseña, host;
     private Button btnLog;
-    //private static  String URL_Regist="http://192.168.1.66/pruebaphp/login.php";
-    private static  String URL_Regist="https://playaejidal.fritzgg.com.mx/webservices/login.php";
+    private static  String URL_Regist=GlobalInfo.HOST_URL+GlobalInfo.LOGIN_FILE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

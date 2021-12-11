@@ -38,8 +38,8 @@ public class Ordenar extends AppCompatActivity {
     EditText edtCantidad, edtInstrucciones;
     Spinner spinner;
     List<Mesa> lstMesa;
-    private static final String url_Mesas="https://playaejidal.fritzgg.com.mx/webservices/menu.php";
-    private static  String URL_Regist="https://playaejidal.fritzgg.com.mx/webservices/agregarOrden.php";
+    private static final String url_Mesas=GlobalInfo.HOST_URL+GlobalInfo.MENU_FILE;
+    private static  String URL_Regist=GlobalInfo.HOST_URL+GlobalInfo.ADD_FILE;
     HashMap<Integer,String> spinnerMap = new HashMap<Integer, String>();
     RadioGroup radioGroup;
     RadioButton radioButton;

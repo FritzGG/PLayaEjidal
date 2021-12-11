@@ -33,6 +33,7 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.playaejidal3.CartListAdapter;
+import com.example.playaejidal3.GlobalInfo;
 import com.example.playaejidal3.Mesa;
 import com.example.playaejidal3.MyApplication;
 import com.example.playaejidal3.Orden;
@@ -67,7 +68,7 @@ public class ordenesFragment extends Fragment implements RecyclerItemTouchHelper
 
     // url to fetch menu json
 
-    private static  String URL_Regist="https://playaejidal.fritzgg.com.mx/webservices/ordenLista.php";
+    private static  String URL_Regist= GlobalInfo.HOST_URL+GlobalInfo.ORDENL_FILE;
 
     public ordenesFragment() {
         // Required empty public constructor
@@ -111,7 +112,7 @@ public class ordenesFragment extends Fragment implements RecyclerItemTouchHelper
 
     private void prepareCart() {
 
-        final String URL = "https://playaejidal.fritzgg.com.mx/webservices/verOrdenes.php";
+        final String URL = GlobalInfo.HOST_URL+GlobalInfo.ORDENV_FILE;
 
 
 

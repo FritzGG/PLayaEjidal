@@ -26,6 +26,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.playaejidal3.GlobalInfo;
 import com.example.playaejidal3.Mesa;
 import com.example.playaejidal3.R;
 import com.example.playaejidal3.RecyclerViewAdapter;
@@ -41,7 +42,7 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class MesasFragment extends Fragment {
-    private static final String url_Mesas="https://playaejidal.fritzgg.com.mx/webservices/mesas.php";
+    private static final String url_Mesas= GlobalInfo.HOST_URL+GlobalInfo.TABLES_FILE;
     List<Mesa> lstMesa;
     SwipeRefreshLayout swipeRefreshLayout;
 
