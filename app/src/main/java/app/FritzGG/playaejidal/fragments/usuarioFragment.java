@@ -1,4 +1,4 @@
-package com.example.playaejidal3.fragments;
+package app.FritzGG.playaejidal.fragments;
 
 
 import android.os.Bundle;

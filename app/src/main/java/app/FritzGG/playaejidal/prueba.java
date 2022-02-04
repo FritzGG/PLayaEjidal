@@ -1,4 +1,4 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.playaejidal3.R;
 
 public class prueba extends AppCompatActivity implements View.OnClickListener {
 

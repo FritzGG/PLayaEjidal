@@ -1,4 +1,4 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,22 +6,16 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.app.FragmentManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Environment;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-import com.example.playaejidal3.fragments.MesasFragment;
-import com.example.playaejidal3.fragments.ordenesFragment;
-import com.example.playaejidal3.fragments.usuarioFragment;
+import com.example.playaejidal3.R;
+
+import app.FritzGG.playaejidal.fragments.MesasFragment;
+import app.FritzGG.playaejidal.fragments.ordenesFragment;
+import app.FritzGG.playaejidal.fragments.usuarioFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 

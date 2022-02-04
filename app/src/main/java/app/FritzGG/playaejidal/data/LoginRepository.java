@@ -1,6 +1,6 @@
-package com.example.playaejidal3.data;
+package app.FritzGG.playaejidal.data;
 
-import com.example.playaejidal3.data.model.LoggedInUser;
+import app.FritzGG.playaejidal.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

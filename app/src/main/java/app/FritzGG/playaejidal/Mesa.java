@@ -1,4 +1,4 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 public class Mesa {
 

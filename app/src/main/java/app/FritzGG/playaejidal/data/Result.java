@@ -1,4 +1,4 @@
-package com.example.playaejidal3.data;
+package app.FritzGG.playaejidal.data;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.

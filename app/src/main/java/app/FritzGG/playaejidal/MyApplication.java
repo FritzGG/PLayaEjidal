@@ -1,4 +1,4 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 import android.app.Application;
 import android.text.TextUtils;

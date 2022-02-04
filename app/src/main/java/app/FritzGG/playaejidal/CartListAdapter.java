@@ -1,6 +1,5 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
-import android.content.ClipData;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.playaejidal3.R;
 
 import java.util.List;
 

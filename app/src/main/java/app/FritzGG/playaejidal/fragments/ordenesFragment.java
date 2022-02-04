@@ -1,12 +1,9 @@
-package com.example.playaejidal3.fragments;
+package app.FritzGG.playaejidal.fragments;
 
 
-import android.content.ClipData;
 import android.graphics.Color;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -32,19 +29,17 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.playaejidal3.CartListAdapter;
-import com.example.playaejidal3.GlobalInfo;
-import com.example.playaejidal3.Mesa;
-import com.example.playaejidal3.MyApplication;
-import com.example.playaejidal3.Orden;
+import app.FritzGG.playaejidal.CartListAdapter;
+import app.FritzGG.playaejidal.GlobalInfo;
+import app.FritzGG.playaejidal.MyApplication;
+import app.FritzGG.playaejidal.Orden;
 import com.example.playaejidal3.R;
-import com.example.playaejidal3.RecyclerItemTouchHelper;
+import app.FritzGG.playaejidal.RecyclerItemTouchHelper;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;

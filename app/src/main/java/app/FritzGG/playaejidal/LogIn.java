@@ -1,14 +1,12 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -18,7 +16,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.playaejidal3.fragments.MesasFragment;
+import com.example.playaejidal3.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

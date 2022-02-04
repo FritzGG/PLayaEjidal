@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".MyApplication"
+        android:name="app.FritzGG.playaejidal.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/iconpng"
         android:label="@string/app_name"
@@ -14,11 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
-        <activity android:name=".Ordenar" />
-        <activity android:name=".prueba" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".DetallesMesa" />
-        <activity android:name=".LogIn" >
+        <activity android:name="app.FritzGG.playaejidal.Ordenar" />
+        <activity android:name="app.FritzGG.playaejidal.prueba" />
+        <activity android:name="app.FritzGG.playaejidal.MainActivity" />
+        <activity android:name="app.FritzGG.playaejidal.DetallesMesa" />
+        <activity android:name="app.FritzGG.playaejidal.LogIn" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

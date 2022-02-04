@@ -1,4 +1,4 @@
-package com.example.playaejidal3.data.model;
+package app.FritzGG.playaejidal.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

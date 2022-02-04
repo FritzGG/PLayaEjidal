@@ -1,21 +1,14 @@
-package com.example.playaejidal3.fragments;
+package app.FritzGG.playaejidal.fragments;
 
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,10 +19,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.playaejidal3.GlobalInfo;
-import com.example.playaejidal3.Mesa;
+import app.FritzGG.playaejidal.GlobalInfo;
+import app.FritzGG.playaejidal.Mesa;
 import com.example.playaejidal3.R;
-import com.example.playaejidal3.RecyclerViewAdapter;
+import app.FritzGG.playaejidal.RecyclerViewAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;

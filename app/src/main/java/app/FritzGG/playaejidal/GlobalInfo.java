@@ -1,4 +1,4 @@
-package com.example.playaejidal3;
+package app.FritzGG.playaejidal;
 
 public class GlobalInfo {
     public static final String HOST_URL = "https://playaejidal.fritzgg.com.mx/webservices/";
